@@ -12,3 +12,9 @@ body {
   background-color: var(--bg-primary);
   color: var(--text-primary);
 }
+
+.container {
+  max-width: 144rem;
+  margin: 0 auto;
+  padding: 0 14rem;
+}

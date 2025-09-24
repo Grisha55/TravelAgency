@@ -1,0 +1,70 @@
+.header {
+  height: 4rem;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4.8rem 0 0 0;
+}
+
+.nav__logo {
+  width: 11.4rem;
+  height: 3.3rem;
+}
+
+.nav__logo img {
+  height: 100%;
+}
+
+.nav__items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8.6rem;
+}
+
+.nav__items-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6.2rem;
+  list-style-type: none;
+}
+
+.nav__item {
+  font-family: 'Google Sans Code', sans-serif;
+  font-size: 1.7rem;
+}
+
+.nav__items-settings {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4.2rem;
+  list-style-type: none;
+}
+
+.signUp {
+  padding: 0.9rem 2.1rem;
+  border: 1px solid #212832;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.nav__item-lang {}
+
+.nav__burger {
+  display: none;
+  cursor: pointer;
+  flex-direction: column;
+  row-gap: 0.6rem;
+}
+
+.nav__burger span {
+  background-color: var(--text-primary);
+  display: inline-block;
+  width: 3rem;
+  height: 0.2rem;
+}
