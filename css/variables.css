@@ -1,0 +1,11 @@
+:root {
+  /* Main */
+  --bg-primary: #ffffff;
+
+  /* Text */
+  --text-primary: #111;
+  --text-white: #fff;
+  --text-gray: #5e6282;
+  --color-red: #df6951;
+  --color-purple: #5246e5;
+}
