@@ -4,6 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 0;
 }
 
 .destination__text-block {
@@ -11,41 +12,46 @@
   flex-direction: column;
   justify-content: center;
   align-items: left;
+  max-width: 54.5rem;
 }
 
 .destination__text-block span {
-  font-family: 'Poppins', serif;
-  color: var(--color-red);
-  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
   font-size: 2rem;
-  margin-bottom: 2.4rem;
+  font-weight: bold;
+  color: var(--color-red);
 }
 
 .destination__title {
   font-family: 'Volkhov', serif;
-  color: var(--text-primary);
+  font-size: 8.4rem;
   font-weight: bold;
-  font-size: 8rem;
-  line-height: 7.8rem;
-  letter-spacing: -0.1rem;
-  text-align: left;
-  word-spacing: -1rem;
-  margin-bottom: 3rem;
+  letter-spacing: -0.04em;
+  line-height: 8.9rem;
+  white-space: nowrap;
 }
 
-.destination__text-block .brush-underline {
+.destination__title span {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  letter-spacing: inherit;
+  color: var(--text-primary)
+}
+
+.brush-underline {
   position: relative;
   display: inline-block;
+  white-space: nowwrap;
 }
 
-.destination__text-block .brush-underline::after {
+.brush-underline::after {
   content: "";
   position: absolute;
-  bottom: -0.8rem;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 120%;
-  height: 1.5rem;
+  bottom: 0.6rem;
+  left: -3rem;
+  width: 38.5rem;
+  height: 1.2rem;
   background-image: url('/assets/images/decore.png');
   background-repeat: no-repeat;
   background-position: center;
@@ -107,11 +113,13 @@
 
 .destination__image-block {
   height: 76.4rem;
-  width: 78.4em;
+  width: 78.4rem;
+  max-width: 100%;
+  margin-left: -12rem;
 }
 
 .destination__image-block img {
   height: 100%;
-  width: 100%;
-  object-fit: fill;
+  width: auto;
+  object-fit: contain;
 }
