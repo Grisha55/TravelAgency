@@ -1,10 +1,12 @@
-.destination {}
+.destination {
+  margin-bottom: 9.7rem;
+}
 
 .destination__blocks {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 0;
+  gap: 3rem;
 }
 
 .destination__text-block {
@@ -15,20 +17,20 @@
   max-width: 54.5rem;
 }
 
-.destination__text-block span {
+.destination__pre-title {
   font-family: 'Poppins', sans-serif;
   font-size: 2rem;
   font-weight: bold;
   color: var(--color-red);
+  margin-bottom: 2.4rem;
 }
 
 .destination__title {
   font-family: 'Volkhov', serif;
-  font-size: 8.4rem;
+  font-size: 6rem;
   font-weight: bold;
   letter-spacing: -0.04em;
-  line-height: 8.9rem;
-  white-space: nowrap;
+  line-height: 1.2;
 }
 
 .destination__title span {
@@ -48,9 +50,9 @@
 .brush-underline::after {
   content: "";
   position: absolute;
-  bottom: 0.6rem;
+  bottom: 1rem;
   left: -3rem;
-  width: 38.5rem;
+  width: 200%;
   height: 1.2rem;
   background-image: url('/assets/images/decore.png');
   background-repeat: no-repeat;
@@ -112,14 +114,11 @@
 }
 
 .destination__image-block {
-  height: 76.4rem;
-  width: 78.4rem;
-  max-width: 100%;
-  margin-left: -12rem;
+  max-width: 76.5rem;
 }
 
 .destination__image-block img {
+  width: 100%;
   height: 100%;
-  width: auto;
   object-fit: contain;
 }
