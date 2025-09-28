@@ -88,15 +88,6 @@
     max-width: 100%;
     gap: 2rem;
   }
-
-  .top-selling__card-spring-wrapper {
-    justify-content: center;
-    width: 100%;
-  }
-
-  .top-selling__spring {
-    margin-left: auto;
-  }
 }
 
 @media (max-width: 603px) {
