@@ -49,13 +49,13 @@
 
 .top-selling__spring {
   position: absolute;
-  left: 100%;
-  top: 50%;
+  left: 80%;
+  top: 40%;
   transform: translateY(-50%);
   margin-left: 1rem;
-  width: 3rem;
-  height: auto;
-  z-index: 10;
+  width: 8rem;
+  height: 5rem;
+  z-index: -1;
 }
 
 .top-selling__spring img {
