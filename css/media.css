@@ -88,6 +88,24 @@
     max-width: 100%;
     gap: 2rem;
   }
+
+  .testimonials__message-block {
+    margin: 0 4rem 0 4rem;
+  }
+
+  .testimonials__message-block .testimonials__arrow-toggle {
+    width: 100%;
+    flex-direction: row;
+    margin-top: 3rem;
+  }
+
+  .testimonials__arrow-toggle img:first-child {
+    transform: rotate(-90deg);
+  }
+
+  body .testimonials__arrow-toggle img:last-child {
+    transform: rotate(90deg);
+  }
 }
 
 @media (max-width: 603px) {
