@@ -1,0 +1,136 @@
+.testimonials {
+  margin-bottom: 19.2rem;
+}
+
+.testimonials__blocks {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 8.7rem;
+  flex-wrap: wrap;
+}
+
+.testimonials__text-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.testimonials__text-span {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: #4D4D4D;
+}
+
+.testimonials__text-title {
+  font-family: 'Volkhov', serif;
+  font-weight: bold;
+  font-size: 5rem;
+  max-width: 40.9rem;
+  color: var(--text-primary);
+  margin-bottom: 8.2rem;
+}
+
+.testimonials__dots-container {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.dot {
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  background-color: #DFDFDF;
+}
+
+.dot.active {
+  background-color: #39425D;
+}
+
+.testimonials__message-block {
+  display: flex;
+  gap: 10rem;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.testimonials__message {
+  position: relative;
+}
+
+.testimonials__card {
+  padding: 2.8em 3.4rem;
+  background-color: white;
+  box-shadow: 5px 5px 79px 7px rgba(34, 60, 80, 0.16);
+  max-width: 50.4rem;
+  border-radius: 1rem;
+}
+
+.testimonials__card-image-block {
+  position: absolute;
+  top: -4rem;
+  left: -3.5rem;
+}
+
+.testimonials__card__text-block {
+  display: flex;
+  flex-direction: column;
+  gap: 3.4rem;
+}
+
+.testimonials__card__text-block p {
+  max-width: 40.2rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: #404040;
+}
+
+.author-block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.author-block h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: #404040;
+}
+
+.author-block span {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1.4rem;
+  color: #404040;
+}
+
+.testimonials__card2 {
+  position: absolute;
+  bottom: -8.5rem;
+  right: -5rem;
+  padding: 2.8em 3.4rem;
+  background-color: white;
+  box-shadow: 5px 5px 79px 7px rgba(34, 60, 80, 0.16);
+  max-width: 50.4rem;
+  border-radius: 1rem;
+  z-index: -1;
+}
+
+.testimonials__arrow-toggle {
+  display: flex;
+  flex-direction: column;
+  gap: 5.75rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonials__arrow-toggle img:last-child {
+  transform: rotate(180deg);
+}
