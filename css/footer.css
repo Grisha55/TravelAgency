@@ -1,0 +1,167 @@
+.footer__blocks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 9rem;
+}
+
+.footer__block {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8.3rem;
+  width: 100%;
+}
+
+.footer__block>* {
+  align-self: flex-start;
+  flex-shrink: 0;
+}
+
+.footer__text-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.9rem;
+}
+
+.footer__text-block h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 4.4rem;
+  color: #181E4B;
+  margin: 0;
+}
+
+.footer__text-block p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 1.24;
+  color: #181E4B;
+  max-width: 20.7rem;
+  margin: 0;
+}
+
+.footer__lists-block {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 7.2rem;
+}
+
+.footer__nav {}
+
+.footer__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__item {
+  margin-bottom: 1.4rem;
+}
+
+.footer__item:last-child {
+  margin-bottom: 0;
+}
+
+.footer__item-normal {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 1.24;
+  color: #181E4B;
+}
+
+.footer__item-header {
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 2.1rem;
+  line-height: 1.24rem;
+  color: #08080A;
+  margin-bottom: 2rem;
+}
+
+.footer__socials-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.footer__socials-images {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  margin-bottom: 2.6rem;
+}
+
+.footer__socials-images img {
+  width: auto;
+  height: auto;
+}
+
+.footer__socials-images img.norm {
+  max-width: 4.1rem;
+  max-height: 4.1rem;
+}
+
+.footer__socials-images img.insta {
+  width: 4.5rem;
+  height: 4.5rem;
+}
+
+.footer__socials-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 1.24;
+  letter-spacing: 0.05rem;
+  text-align: left;
+  margin-bottom: 1.6rem;
+  margin-top: 0;
+}
+
+.footer__socials-markets {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.7rem;
+}
+
+.google-market {
+  max-width: 10.7rem;
+  max-height: 3.5rem;
+}
+
+.google-market img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.apple-store {
+  max-width: 10.7rem;
+  max-height: 3.5rem;
+}
+
+.apple-store img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.footer__text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.24;
+  color: #08080A;
+  margin-bottom: 7.9rem;
+}
