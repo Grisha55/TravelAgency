@@ -1,0 +1,38 @@
+.logos {
+  margin-bottom: 11.1rem;
+}
+
+.logos__block {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 5rem;
+  align-items: center;
+  justify-items: center;
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+.logos__block-logo {
+  aspect-ratio: 16/9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5rem;
+  border-radius: 1.2rem;
+  height: 9rem;
+  width: 100%;
+}
+
+.logos__block-logo.active {
+  background-color: white;
+  box-shadow: 0px 5px 69px 4px rgba(34, 60, 80, 0.14);
+}
+
+.logos__block-logo img {
+  max-width: 90%;
+  max-height: 4.5rem;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
