@@ -10,6 +10,15 @@
     flex-direction: column;
     margin-top: 3rem;
   }
+
+  .destination__title {
+    text-align: left;
+    margin-bottom: 1rem;
+  }
+
+  .destination__image-block {
+    display: none;
+  }
 }
 
 @media (max-width: 1285px) {
@@ -59,13 +68,21 @@
     opacity: 0;
   }
 
+  .nav__decore {
+    display: none;
+  }
+
   .destination__image-block {
     display: none;
     opacity: 0;
   }
 
   .destination__text-block {
-    align-items: center;
+    align-items: flex-start;
+  }
+
+  .subscribe__blocks {
+    margin: 0 auto;
   }
 
   .subscribe__blocks .subscribe__title {
@@ -93,10 +110,6 @@
     gap: 2rem;
   }
 
-  .testimonials__message-block {
-    margin: 0 4rem 0 4rem;
-  }
-
   .testimonials__message-block .testimonials__arrow-toggle {
     width: 100%;
     flex-direction: row;
@@ -121,19 +134,40 @@
   .subscribe__blocks .subscribe__title {
     font-size: 1rem;
   }
+
+  .testimonials__blocks {
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 603px) {
+
+  .destination__text-block {
+    align-items: flex-start;
+  }
+
   .destination__text-block .destination__title {
     font-size: 3rem;
+  }
+
+  .destination__text {
+    align-items: left;
+  }
+}
+
+@media (max-width: 594px) {
+  .testimonials__blocks {
+    width: 80%;
   }
 }
 
 @media (max-width: 575px) {
 
   .destination__text-block .destination__text {
-    font-size: 1.2rem;
-    text-align: center;
+    font-size: 1.4rem;
+    text-align: left;
     text-wrap: wrap;
   }
 
@@ -143,5 +177,9 @@
 
   .category__card {
     row-gap: 1.5rem;
+  }
+
+  .booking__trip {
+    margin-right: 1rem;
   }
 }
