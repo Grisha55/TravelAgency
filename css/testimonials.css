@@ -57,11 +57,8 @@
   flex-wrap: wrap;
 }
 
-.testimonials__message {
-  position: relative;
-}
-
 .testimonials__card {
+  position: relative;
   padding: 2.8em 3.4rem;
   background-color: white;
   box-shadow: 5px 5px 79px 7px rgba(34, 60, 80, 0.16);

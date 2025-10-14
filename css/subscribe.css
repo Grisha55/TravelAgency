@@ -61,7 +61,7 @@
   display: flex;
   align-items: center;
   height: 6.8rem;
-  width: auto;
+  max-width: 42.1rem;
 }
 
 .input-icon {
@@ -87,7 +87,7 @@
   background-color: #FF8B6B;
   color: white;
   font-size: 1.7rem;
-  width: 18rem;
+  max-width: 18rem;
   height: 6.8rem;
 }
 
