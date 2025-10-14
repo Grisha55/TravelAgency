@@ -7,14 +7,20 @@
   align-items: center;
   justify-content: space-between;
   gap: 3rem;
+  width: 100%;
 }
 
 .destination__text-block {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: left;
-  max-width: 54.5rem;
+  align-items: start;
+}
+
+.destination__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .destination__pre-title {
@@ -26,6 +32,7 @@
 }
 
 .destination__title {
+  position: relative;
   font-family: 'Volkhov', serif;
   font-size: 6rem;
   font-weight: bold;

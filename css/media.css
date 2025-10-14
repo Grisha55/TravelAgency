@@ -1,28 +1,9 @@
-/* Сначала большие экраны, потом меньшие */
-@media (min-width: 1400px) {
-  .category__list {
-    grid-template-columns: repeat(4, minmax(26.7rem, 1fr));
-  }
-}
-
-@media (max-width: 1332px) {
-  .destination__blocks {
-    flex-direction: column;
-    margin-top: 3rem;
+@media (max-width: 1338px) {
+  header .container {
+    padding: 0 4rem;
   }
 
-  .destination__title {
-    text-align: left;
-    margin-bottom: 1rem;
-  }
-
-  .destination__image-block {
-    display: none;
-  }
-}
-
-@media (max-width: 1285px) {
-  .nav__items-links {
+  .nav__items {
     display: none;
     position: fixed;
     flex-direction: column;
@@ -36,31 +17,82 @@
     height: 100vh;
   }
 
-  .nav__items .nav__burger {
+  .nav .nav__burger {
     display: flex;
+  }
+
+  .destination {
+    margin-top: 4rem;
+  }
+
+  .destination__blocks {
+    flex-direction: column;
+  }
+
+  .destination__text-block {
+    align-items: center;
+    max-width: 60rem;
+  }
+
+  .destination__image-block {
+    display: none;
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1267px) {
+  .subscribe__blocks .subscribe__title {
+    font-size: 3rem;
+  }
+}
 
-  .category__list {
-    grid-template-columns: repeat(2, minmax(25rem, 1fr));
-    gap: 2.5rem;
-    padding: 0 2rem;
+@media (max-width: 1206px) {
+  .subscribe__blocks .subscribe__title {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 1110px) {
+  .subscribe__blocks .subscribe__title {
+    font-size: 1.8rem;
   }
 
-  .category__card {
-    padding: 3rem;
+  .footer__blocks .footer__block {
+    align-items: center;
+  }
+}
+
+@media (max-width: 1005px) {
+  .subscribe__blocks .subscribe__title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 980px) {
+  .subscribe__blocks .subscribe__input-form {
+    position: relative;
+  }
+
+  .subscribe__input-form .form-input {
+    width: 31.1rem;
+  }
+
+  .subscribe__input-form .subscribe__button {
+    padding: 1.8rem 4rem;
+    height: 5.8rem;
+  }
+
+  .subscribe__blocks .subscribe__title {
+    font-size: 1.5rem;
+    line-height: 2;
+    width: 40rem;
   }
 }
 
 @media (max-width: 916px) {
-  body .container {
-    padding: 0 2rem 0 2rem;
-  }
 
-  .nav__items .nav__burger {
-    padding-right: 4rem;
+  .nav {
+    padding-right: 1rem;
+    padding-left: 1rem;
   }
 
   .nav__items-settings {
@@ -68,118 +100,189 @@
     opacity: 0;
   }
 
-  .nav__decore {
+  .category__decore {
     display: none;
   }
 
-  .destination__image-block {
+  .top-selling__text-block .top-selling__title {
+    font-size: 4rem;
+  }
+
+  .booking__text-block .booking__title {
+    font-size: 4rem;
+  }
+
+  .subscribe__blocks .subscribe__plus-block {
     display: none;
-    opacity: 0;
   }
 
-  .destination__text-block {
-    align-items: flex-start;
+  .subscribe__blocks .subscribe__top-block {
+    display: none;
   }
 
-  .subscribe__blocks {
-    margin: 0 auto;
-  }
-
-  .subscribe__blocks .subscribe__title {
-    font-size: 2.5rem;
+  .subscribe__blocks .subscribe__down-block {
+    display: none;
   }
 }
 
-@media (min-width: 768px) and (max-width: 900px) and (orientation: portrait) {
-  .category__list {
-    grid-template-columns: 1fr;
-    max-width: 50rem;
-  }
-}
-
-@media (max-width: 767px) {
-
-  .category__title {
-    font-size: 3.2rem;
-    margin-bottom: 4rem;
-  }
-
-  .category__list {
-    grid-template-columns: 1fr;
-    max-width: 100%;
-    gap: 2rem;
-  }
-
-  .testimonials__message-block .testimonials__arrow-toggle {
-    width: 100%;
-    flex-direction: row;
-    margin-top: 3rem;
-  }
-
-  .testimonials__arrow-toggle img:first-child {
-    transform: rotate(-90deg);
-  }
-
-  body .testimonials__arrow-toggle img:last-child {
+@media (max-width: 865px) {
+  .testimonials__arrow-toggle {
     transform: rotate(90deg);
   }
 
-  .subscribe__blocks .subscribe__title {
-    font-size: 1.8rem;
-    line-height: 2;
+  .subscribe__input-form .form-input {
+    height: 4rem;
+    width: 26.1rem;
+  }
+
+  .subscribe__input-form .subscribe__button {
+    height: 4.8rem;
   }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 824px) {
+  .subscribe__blocks .subscribe__title {
+    font-size: 1.5rem;
+    width: 35rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .subscribe__blocks .subscribe__title {
+    width: 30rem;
+  }
+
+  .testimonials__blocks .testimonials__message-block {
+    gap: 2rem;
+  }
+
+  .testimonials__card .testimonials__card2 {
+    display: none;
+  }
+}
+
+@media (max-width: 667px) {
+  .destination__text-block {
+    width: 100%;
+  }
+
+  .destination__text-block .destination__title {
+    font-size: 5rem;
+  }
+
+  .top-selling__text-block .top-selling__title {
+    font-size: 3rem;
+  }
+
+  .booking__text-block .booking__title {
+    font-size: 3rem;
+  }
+
+  .testimonials__text-block .testimonials__text-title {
+    font-size: 4rem;
+  }
+
+  .subscribe__blocks .subscribe__title {
+    font-size: 1.2rem;
+    width: 25rem;
+    margin-bottom: 4rem;
+  }
+}
+
+@media (max-width: 604px) {
+  .destination__text-block .destination__title {
+    font-size: 4rem;
+  }
+
+  .destination__title .brush-underline {
+    padding-top: 1rem;
+  }
+
+  .booking__text-block .booking__title {
+    font-size: 2.5rem;
+  }
+
+  .testimonials__text-block .testimonials__text-title {
+    font-size: 3.5rem;
+  }
+
+  .subscribe .subscribe__blocks {
+    padding: 3rem;
+  }
+
+  .subscribe .subscribe__image-block {
+    display: none;
+  }
+
+  .subscribe__input-form .form-input {
+    width: 20.1rem;
+  }
+
+  .subscribe__input-form .subscribe__button {
+    padding: 0 3rem;
+    height: 3.8rem;
+  }
+
   .subscribe__blocks .subscribe__title {
     font-size: 1rem;
+    width: 18rem;
+    margin-bottom: 2rem;
   }
 
-  .testimonials__blocks {
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
+  .footer__block .footer__lists-block {
+    justify-content: flex-start;
   }
 }
 
-@media (max-width: 603px) {
-
-  .destination__text-block {
-    align-items: flex-start;
-  }
-
+@media (max-width: 538px) {
   .destination__text-block .destination__title {
     font-size: 3rem;
   }
 
-  .destination__text {
-    align-items: left;
+  .category__blocks .category__title {
+    font-size: 3rem;
+  }
+
+  .top-selling__text-block .top-selling__title {
+    font-size: 2.5rem;
+  }
+
+  .booking__text-block .booking__title {
+    font-size: 2rem;
+  }
+
+  .testimonials__text-block .testimonials__text-title {
+    font-size: 3rem;
+  }
+
+  .subscribe__blocks .subscribe__title {
+    width: 15rem;
   }
 }
 
-@media (max-width: 594px) {
-  .testimonials__blocks {
-    width: 80%;
-  }
-}
-
-@media (max-width: 575px) {
-
-  .destination__text-block .destination__text {
-    font-size: 1.4rem;
-    text-align: left;
-    text-wrap: wrap;
+@media (max-width: 488px) {
+  .destination__text-block .destination__pre-title {
+    font-size: 1.5rem;
   }
 
-  .category__list {
-    gap: 1.5rem;
+  .destination__text-block .destination__title {
+    font-size: 2.5rem;
   }
 
-  .category__card {
-    row-gap: 1.5rem;
+  .category__blocks .category__title {
+    font-size: 2rem;
+    margin-bottom: 3.3rem;
   }
 
-  .booking__trip {
-    margin-right: 1rem;
+  .top-selling__text-block .top-selling__title {
+    font-size: 2rem;
+  }
+
+  .booking__text-block .booking__title {
+    font-size: 1.5rem;
+  }
+
+  .testimonials__text-block .testimonials__text-title {
+    font-size: 2.5rem;
   }
 }
