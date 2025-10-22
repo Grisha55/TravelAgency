@@ -4,21 +4,79 @@
   }
 
   .nav__items {
-    display: none;
     position: fixed;
-    flex-direction: column;
     top: 0;
-    right: 0;
-    width: 30rem;
-    background-color: var(--text-gray);
-    padding: 2rem 1.6rem;
-    z-index: 11;
-    opacity: 0;
+    right: -100%;
+    width: 80%;
+    max-width: 300px;
     height: 100vh;
+    background-color: var(--text-gray);
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 8rem 2rem 2rem;
+    gap: 3rem;
+    box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+    transition: right 0.3s ease;
+    z-index: 999;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .nav__items.active {
+    right: 0;
+  }
+
+  .nav__items-links {
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .nav__items-settings {
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+  }
+
+  .nav__item {
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav__item a {
+    display: block;
+    padding: 1rem;
+  }
+
+  .signUp {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  body.menu-open::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 998;
+  }
+
+  .nav__decore {
+    display: none;
   }
 
   .nav .nav__burger {
-    display: flex;
+    display: block;
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
 
   .destination {
@@ -93,11 +151,6 @@
   .nav {
     padding-right: 1rem;
     padding-left: 1rem;
-  }
-
-  .nav__items-settings {
-    display: none;
-    opacity: 0;
   }
 
   .category__decore {
