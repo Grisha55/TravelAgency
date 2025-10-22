@@ -20,13 +20,24 @@
   justify-content: center;
   padding: 2.5rem;
   border-radius: 1.2rem;
-  /* height: 9rem; */
   width: 100%;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.logos__block-logo:hover {
+  transform: scale(1.05);
+  border: 1px solid lightgray;
 }
 
 .logos__block-logo.active {
   background-color: white;
   box-shadow: 0px 5px 69px 4px rgba(34, 60, 80, 0.14);
+}
+
+.logos__block-logo.active:hover {
+  transform: none;
+  transition: none;
 }
 
 .logos__block-logo img {

@@ -39,6 +39,11 @@
   font-size: 1.7rem;
 }
 
+.nav__item a:hover {
+  transition: color 0.3s ease-in-out;
+  color: var(--color-link-hover);
+}
+
 .nav__items-settings {
   display: flex;
   align-items: center;
@@ -52,9 +57,33 @@
   border: 1px solid #212832;
   border-radius: 5px;
   cursor: pointer;
+  transition: color 0.1s ease;
 }
 
-.nav__item-lang {}
+.signUp:hover {
+  border: none;
+  background-color: var(--color-link-hover);
+  color: var(--text-white);
+}
+
+.nav__item-lang {
+  transition: color 0.3s ease-in-out;
+}
+
+.nav__item-lang select {
+  border: none;
+  outline: none;
+}
+
+.nav__item-lang:hover {
+  border: 1px solid var(--color-link-hover);
+  border-radius: 5px;
+}
+
+.nav__item-lang select:focus {
+  outline: none;
+  border: none;
+}
 
 .nav__burger {
   display: none;

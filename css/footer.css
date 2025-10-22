@@ -71,6 +71,12 @@
   font-size: 1.8rem;
   line-height: 1.24;
   color: #181E4B;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer__item-normal:hover {
+  transform: scale(1.1);
+  color: var(--color-link-hover);
 }
 
 .footer__item-header {
@@ -81,6 +87,7 @@
   line-height: 1.24rem;
   color: #08080A;
   margin-bottom: 2rem;
+  cursor: default;
 }
 
 .footer__socials-block {
@@ -100,6 +107,12 @@
 .footer__socials-images img {
   width: auto;
   height: auto;
+  cursor: pointer;
+  transition: scale 0.3s ease-in-out;
+}
+
+.footer__socials-images img:hover {
+  transform: scale(1.2);
 }
 
 .footer__socials-images img.norm {
@@ -139,6 +152,12 @@
   width: 100%;
   height: 100%;
   object-fit: contain;
+  cursor: pointer;
+  transition: scale 0.3s ease-in-out;
+}
+
+.google-market img:hover {
+  transform: scale(1.08);
 }
 
 .apple-store {
@@ -150,6 +169,12 @@
   width: 100%;
   height: 100%;
   object-fit: contain;
+  cursor: pointer;
+  transition: scale 0.3s ease-in-out;
+}
+
+.apple-store img:hover {
+  transform: scale(1.08);
 }
 
 .footer__text {

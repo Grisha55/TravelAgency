@@ -89,6 +89,13 @@
   font-size: 1.7rem;
   max-width: 18rem;
   height: 6.8rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.subscribe__button:hover {
+  background-color: var(--color-button-hover);
+  transform: scale(0.95);
 }
 
 .subscribe__down-block {
