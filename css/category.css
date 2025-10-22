@@ -52,10 +52,18 @@
   justify-content: space-around;
   row-gap: 2rem;
   width: 100%;
+  cursor: pointer;
+  transition: scale 0.3s ease-in-out;
+}
+
+.category__card:hover {
+  transform: scale(0.9);
 }
 
 .category__card.active {
   border: 0.1rem solid var(--text-gray);
+  transform: none;
+  cursor: default;
 }
 
 .category__card.active::before {

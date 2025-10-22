@@ -8,4 +8,8 @@
   --text-gray: #84829A;
   --color-red: #df6951;
   --color-purple: #5246e5;
+
+  /* hover */
+  --color-link-hover: #ff5e1f;
+  --color-button-hover: #27ae60;
 }

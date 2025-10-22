@@ -92,6 +92,11 @@
   color: var(--text-white);
   font-family: 'Google Sans', serif;
   cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.destination__button:hover {
+  background-color: var(--color-link-hover);
 }
 
 .destination__play-block {
@@ -112,12 +117,18 @@
   color: var(--text-white);
   font-size: 1.5rem;
   cursor: pointer;
+  transition: scale 0.3s ease-in-out;
+}
+
+.circle:hover {
+  transform: scale(1.1);
 }
 
 .destination__play-block p {
   font-family: 'Poppins', serif;
   font-size: 1.7rem;
   font-weight: 400;
+  cursor: pointer;
 }
 
 .destination__image-block {
