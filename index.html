@@ -321,16 +321,16 @@
                 What People Say About Us.
               </h1>
               <div class="testimonials__dots-container">
-                <div class="dot active"></div>
-                <div class="dot"></div>
-                <div class="dot"></div>
+                <div class="dot active" data-index="0"></div>
+                <div class="dot" data-index="1"></div>
+                <div class="dot" data-index="2"></div>
               </div>
             </div>
             <div class="testimonials__message-block">
               <div class="testimonials__message">
-                <div class="testimonials__card">
+                <div class="testimonials__card active">
                   <div class="testimonials__card-image-block">
-                    <img src="assets/images/portret.png" alt="Portret" />
+                    <img src="assets/images/portret.png" alt="Mike Taylor" />
                   </div>
                   <div class="testimonials__card__text-block">
                     <p>
@@ -339,31 +339,71 @@
                       believed or diverted no.”
                     </p>
                     <div class="author-block">
-                      <h1>Mike taylor</h1>
-                      <p>Lahore, Pakistan</p>
+                      <h1>Mike Taylor</h1>
+                      <span>Lahore, Pakistan</span>
                     </div>
                   </div>
-                  <div class="testimonials__card2">
-                    <div class="testimonials__card-image-block">
-                      <img src="" alt="" />
+                </div>
+
+                <div class="testimonials__card">
+                  <div class="testimonials__card-image-block">
+                    <img src="assets/images/portret2.jpg" alt="Chris Thomas" />
+                  </div>
+                  <div class="testimonials__card__text-block">
+                    <p>
+                      “Great service! The team was professional and delivered
+                      beyond expectations. I highly recommend them to anyone
+                      looking for quality work.”
+                    </p>
+                    <div class="author-block">
+                      <h1>Chris Thomas</h1>
+                      <span>CEO of RED Button</span>
                     </div>
-                    <div class="testimonials__card__text-block">
-                      <p>
-                        “On the Windows talking painted pasture yet its express
-                        parties use. Sure last upon he same as knew next. Of
-                        believed or diverted no.”
-                      </p>
-                      <div class="author-block">
-                        <h1>Chris Thomas</h1>
-                        <p>CEO of RED Button</p>
-                      </div>
+                  </div>
+                </div>
+
+                <div class="testimonials__card">
+                  <div class="testimonials__card-image-block">
+                    <img src="assets/images/portret3.jpg" alt="Sarah Johnson" />
+                  </div>
+                  <div class="testimonials__card__text-block">
+                    <p>
+                      “Outstanding results! They understood our needs perfectly
+                      and delivered a solution that exceeded our expectations.
+                      Will definitely work with them again.”
+                    </p>
+                    <div class="author-block">
+                      <h1>Sarah Johnson</h1>
+                      <span>Marketing Director</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="testimonials__card2">
+                  <div class="testimonials__card__text-block">
+                    <p>
+                      “We are committed to providing the best service to our
+                      customers. Your satisfaction is our priority.”
+                    </p>
+                    <div class="author-block">
+                      <h1>Our Team</h1>
+                      <span>Always here for you</span>
                     </div>
                   </div>
                 </div>
               </div>
+
               <div class="testimonials__arrow-toggle">
-                <img src="assets/images/arrow-top.png" alt="Arrow Top" />
-                <img src="assets/images/arrow-top.png" alt="Arrow Bottom" />
+                <img
+                  id="arrow-top"
+                  src="assets/images/arrow-top.png"
+                  alt="Previous"
+                />
+                <img
+                  id="arrow-bottom"
+                  src="assets/images/arrow-top.png"
+                  alt="Next"
+                />
               </div>
             </div>
           </div>
@@ -520,5 +560,6 @@
         </div>
       </div>
     </footer>
+    <script src="./script.js"></script>
   </body>
 </html>
